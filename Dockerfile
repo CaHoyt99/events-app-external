@@ -10,5 +10,6 @@ WORKDIR /app
 # Install dependencies.
 RUN npm install
 
+RUN npm test
 # Start the Express app
 CMD ["node", "server.js"]
